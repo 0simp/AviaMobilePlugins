@@ -21,7 +21,7 @@ let fuckyou = [];
         fuckyou.push(thing.children[0]!==collapsebutton)
         if(fuckyou.length===1){
           if(thing.children[0].className=='d_flex flex-d_column flex-g_initial m_0 ai_initial jc_initial gap_var(--gap-s)'){
-            if(thing.children[0]!==collapsebutton&&fuckyou.length==1&&thing.children.length<7){
+            if(thing.children[0]!==collapsebutton&&fuckyou.length==1&&thing.children.length<8){
               thing.insertBefore(collapsebutton,thing.children[0])
             }
           }else{
