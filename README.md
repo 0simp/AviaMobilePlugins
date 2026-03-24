@@ -1,5 +1,5 @@
 All my plugins for avia client mobile
 
-# CollapseSettingsSideBar
+# MobileCSSPlus
 
-Adds a button to collapse the settings sidebar. This plugin is a must if you want to access settings on mobile
+Mobile optimised version of [Monaco CSS](https://raw.githubusercontent.com/AvaLilac/Ava-s-AviaClient-Plugins/refs/heads/main/QuickCSSPlus.js). Adds a clear and paste button because select all and paste functions don't work in the editor on mobile
