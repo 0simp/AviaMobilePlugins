@@ -12,18 +12,12 @@
         e.preventDefault();
         e.stopPropagation();
         e.stopImmediatePropagation();
-        const text = editor.textContent
-        if(text!=editor.ariaPlaceholder){
-            editor.textContent=text+'\n'
+        let text = ''
+        const firstLine = document.getElementsByClassName('cm-line').item(0)
+        for(const child of firstLine.parentElement.children){
+          text = text+`${child.children[0].textContent}\n`
         }
-      }else{
-        e.preventDefault();
-        e.stopPropagation();
-        e.stopImmediatePropagation();
-        const sendButton = [...document.querySelectorAll("button")]
-          .find(b => b.innerText.includes("send"));
-
-        if (sendButton) sendButton.click();
+        editor.textContent = text
       }
 
     }, true);
