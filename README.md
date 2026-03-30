@@ -1,4 +1,4 @@
-All my plugins for avia client mobile
+All my plugins for [Avia Client Mobile](https://github.com/0simp/AviaClientMobile)
 
 # MobileCSSPlus
 
