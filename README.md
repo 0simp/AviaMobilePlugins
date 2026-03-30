@@ -1,5 +1,9 @@
 All my plugins for [Avia Client Mobile](https://github.com/0simp/AviaClientMobile)
 
+# 3TapReply
+
+Allows you to reply to a message by tapping it 3 times
+
 # MobileCSSPlus
 
 Mobile optimised version of [Monaco CSS](https://raw.githubusercontent.com/AvaLilac/Ava-s-AviaClient-Plugins/refs/heads/main/QuickCSSPlus.js). Adds a clear and paste button because select all and paste functions don't work in the editor on mobile
